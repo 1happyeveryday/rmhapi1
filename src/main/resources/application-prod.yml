@@ -1,0 +1,11 @@
+# 线上配置文件
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: *
+    username: user
+    password: 123456
+#server:
+#  port: 7530
+#  servlet:
+#    context-path: /api
